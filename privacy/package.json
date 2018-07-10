@@ -1,0 +1,34 @@
+{
+  "name": "balance-transfer",
+  "version": "1.0.0-snapshot",
+  "description": "A block chain ciper api",
+  "main": "app.js",
+  "keywords": [
+    "block chain ciper API "
+  ],
+  "engines": {
+    "node": ">=6.9.5",
+    "npm": ">=3.10.10"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "bunyan": "^1.8.12",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "follow": "^1.0.0",
+    "json-fs-store": "^1.0.1",
+    "moment": "^2.20.1",
+    "mv": "^2.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "safe-json-stringify": "^1.0.4",
+    "source-map-support": "^0.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0"
+  },
+  "scripts": {
+    "lint": "eslint lib/ config/ api/ ",
+    "fix": "eslint lib/ config/ api/ --fix"
+  }
+}

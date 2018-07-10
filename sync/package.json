@@ -1,0 +1,25 @@
+{
+  "name": "sync-service",
+  "version": "1.0.0",
+  "description": "sync micro-service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "bunyan": "^1.8.12",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "chronoscript": "0.0.7",
+    "json-fs-store": "^1.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "mv": "^2.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "safe-json-stringify": "^1.0.4",
+    "source-map-support": "^0.5.3"
+  }
+}
