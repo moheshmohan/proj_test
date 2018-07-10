@@ -1,0 +1,24 @@
+{
+  "name": "viewcompute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "crypto": "^1.0.1",
+    "json-fs-store": "^1.0.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "mv": "^2.1.1",
+    "request": "^2.85.0",
+    "safe-json-stringify": "^1.0.4",
+    "source-map-support": "^0.5.3",
+    "stacktrace-js": "^2.0.0"
+  }
+}
