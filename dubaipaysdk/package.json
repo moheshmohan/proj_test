@@ -31,7 +31,7 @@
     "fabric-client": "~1.1.0",
     "fs-extra": "^2.0.0",
     "ip": "^1.1.5",
-    "jsonwebtoken": "^7.3.0",
+    "jsonwebtoken": "^8.0.0",
     "log4js": "^0.6.38",
     "pm2": "^2.10.2",
     "rsvp": "^4.8.2",
