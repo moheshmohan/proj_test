@@ -1,0 +1,67 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - node-rest-client > debug:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-fs-store > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:hawk:20160119':
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantom-workers > phantomjs > request > hawk:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantomjs > request > hawk:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantom-workers > phantomjs > request > hawk:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:http-signature:20150122':
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantom-workers > phantomjs > request > http-signature:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantom-workers > phantomjs > request > http-signature:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantomjs > request > http-signature:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:lodash:20180130':
+    - monologue.js > lodash:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:mime:20170907':
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantomjs > request > form-data > mime:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantomjs > request > form-data > mime:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantom-workers > phantomjs > request > form-data > mime:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantom-workers > phantomjs > request > form-data > mime:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:moment:20160126':
+    - chronoscript > moment:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:ms:20170412':
+    - node-rest-client > debug > ms:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-fs-store > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:ms:20151024':
+    - jsreport-core > reap > ms:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-core > reap > ms:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:request:20160119':
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantomjs > request:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantomjs > request:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantom-workers > phantomjs > request:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantom-workers > phantomjs > request:
+        patched: '2019-04-05T00:41:13.000Z'
+  'npm:tunnel-agent:20170305':
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantomjs > request > tunnel-agent:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantomjs > request > tunnel-agent:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > phantom-workers > phantomjs > request > tunnel-agent:
+        patched: '2019-04-05T00:41:13.000Z'
+    - jsreport > jsreport-phantom-pdf > phantom-html-to-pdf > phantom-workers > phantomjs > request > tunnel-agent:
+        patched: '2019-04-05T00:41:13.000Z'
