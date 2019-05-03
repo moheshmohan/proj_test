@@ -35,16 +35,16 @@
     "express-fileupload": "^0.3.0",
     "express-jwt": "^5.1.0",
     "express-session": "^1.15.2",
-    "express-ws": "^3.0.0",
+    "express-ws": "^4.0.0",
     "fast-json-parse": "^1.0.3",
     "grpc": "^1.11.3",
     "handlebars": "^4.0.11",
     "json-fs-store": "^1.0.1",
     "json-pointer": "^0.6.0",
     "json2xls": "^0.1.2",
-    "jsonwebtoken": "^7.3.0",
-    "jsreport": "^1.10.0",
-    "jsreport-core": "^1.5.1",
+    "jsonwebtoken": "^8.0.0",
+    "jsreport": "^2.4.0",
+    "jsreport-core": "^2.3.0",
     "lodash": "^4.15.0",
     "log4js": "^0.6.38",
     "md5": "^2.2.1",
@@ -68,19 +68,23 @@
     "sendmail": "^1.2.0",
     "sha256": "^0.2.0",
     "sha512": "0.0.1",
-    "soap": "^0.23.0",
+    "soap": "^0.24.0",
     "source-map-support": "^0.5.3",
     "sqltomango": "^1.2.2",
     "url": "^0.11.0",
     "uuid": "^3.2.1",
     "validator": "^9.0.0",
-    "when": "^3.7.7"
+    "when": "^3.7.7",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "eslint": "^4.9.0"
   },
   "scripts": {
     "lint": "eslint lib/ config/ api/ background/ soap/ scripts/ reports/ exports/ Common/",
-    "fix": "eslint lib/ config/ api/ background/ soap/ scripts/ reports/ exports/ Common/ --fix"
-  }
+    "fix": "eslint lib/ config/ api/ background/ soap/ scripts/ reports/ exports/ Common/ --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
