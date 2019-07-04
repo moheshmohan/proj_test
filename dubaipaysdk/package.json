@@ -4,7 +4,9 @@
   "description": "A balance-transfer example node program to demonstrate using node.js SDK APIs",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "fabric-client sample app",
@@ -35,6 +37,8 @@
     "log4js": "^0.6.38",
     "pm2": "^2.10.2",
     "rsvp": "^4.8.2",
-    "sleep": "^5.1.1"
-  }
+    "sleep": "^5.1.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
