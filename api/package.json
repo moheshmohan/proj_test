@@ -74,13 +74,17 @@
     "url": "^0.11.0",
     "uuid": "^3.2.1",
     "validator": "^9.0.0",
-    "when": "^3.7.7"
+    "when": "^3.7.7",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "^4.9.0"
   },
   "scripts": {
     "lint": "eslint lib/ config/ api/ background/ soap/ scripts/ reports/ exports/ Common/",
-    "fix": "eslint lib/ config/ api/ background/ soap/ scripts/ reports/ exports/ Common/ --fix"
-  }
+    "fix": "eslint lib/ config/ api/ background/ soap/ scripts/ reports/ exports/ Common/ --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

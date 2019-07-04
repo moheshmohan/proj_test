@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - jsreport > jsreport-core > listener-collection > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - bunyan-rotating-file-stream > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - mongoose > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-cli > inquirer > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport-core > listener-collection > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-fs-store > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > archiver > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-import-export > archiver > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > archiver > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > msexcel-builder-extended > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-fs-store > listener-collection > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > xml2js > xmlbuilder > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-sample-template > jsreport-import-export > archiver > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-import-export > archiver > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > archiver > zip-stream > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-import-export > archiver > archiver-utils > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-import-export > archiver > zip-stream > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > archiver > archiver-utils > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-sample-template > jsreport-import-export > archiver > archiver-utils > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-sample-template > jsreport-import-export > archiver > zip-stream > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-sample-template > jsreport-import-export > archiver > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-import-export > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-html-to-xlsx > html-to-xlsx > msexcel-builder-extended > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-xlsx > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-sample-template > jsreport-import-export > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
+    - jsreport > jsreport-cli > jsreport-client > request > form-data > async > lodash:
+        patched: '2019-07-04T00:41:13.402Z'
