@@ -10,13 +10,14 @@
     "lodash": "^4.17.4",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-     "bunyan": "^1.8.12",
+    "bunyan": "^1.8.12",
     "bunyan-rotating-file-stream": "^1.6.3",
     "json-fs-store": "^1.0.1",
     "moment": "^2.20.1",
     "mv": "^2.1.1",
     "safe-json-stringify": "^1.0.4",
-    "source-map-support": "^0.5.3"
+    "source-map-support": "^0.5.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "eslint": "^4.9.0",
@@ -25,10 +26,13 @@
   "scripts": {
     "start": "node app.js",
     "lint": "eslint lib/ bootstrap/ app.js ",
-    "fix": "eslint lib/ bootstrap/ app.js --fix"
+    "fix": "eslint lib/ bootstrap/ app.js --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "pre-commit": [
     "lint"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
