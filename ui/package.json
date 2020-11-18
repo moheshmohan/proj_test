@@ -81,7 +81,7 @@
     "webpack-dev-server": "^1.16.2",
     "whatwg-fetch": "^2.0.3",
     "yamljs": "^0.3.0",
-    "protobufjs": "^5.0.3"
+    "protobufjs": "^6.0.0"
   },
   "devDependencies": {
     "cpy-cli": "^2.0.0",
