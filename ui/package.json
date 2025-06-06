@@ -34,7 +34,7 @@
     "bluebird": "^3.5.1",
     "chart.js": "^2.7.0",
     "clone-deep": "^4.0.0",
-    "d3": "^4.10.2",
+    "d3": "^7.0.0",
     "deep-diff": "^1.0.2",
     "draft-js": "^0.10.3",
     "fs": "0.0.1-security",
@@ -78,7 +78,7 @@
     "request-promise-native": "^1.0.5",
     "unescape-js": "^1.1.1",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2",
+    "webpack-dev-server": "^5.2.1",
     "whatwg-fetch": "^2.0.3",
     "yamljs": "^0.3.0",
     "protobufjs": "^5.0.3"
